@@ -1,0 +1,13 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RVc2VyIiwiaWQiOiI2MmNhNmM0MTE3NTdhNTAzNzAxMTNiMmEiLCJpYXQiOjE2NTc1MTc4OTd9.2X_ui7NQhaIu_QS4aARnBgLrEjsvo776i9AGAJmF5M0
+
+{
+  "title": "test test",
+  "author": "test user",
+  "url": "hunter3.com",
+  "likes": "61718"
+}
+
+
+

@@ -1,0 +1,23 @@
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+# {
+#   "username": "Huner",
+#   "password": "hunterz"
+# }
+
+# {
+#   "username": "Joe Biden",
+#   "password": "joepass"
+# }
+
+{
+  "username": "testUser",
+  "password": "test"
+}
+
+
+# {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZSBCaWRlbiIsImlkIjoiNjJjN2FhNWE0NTY1NDI3NzlmZWEzMDVmIiwiaWF0IjoxNjU3MzQ3MjM3fQ.9TYxtByFZbec_oKiyTrI7C2RDgUwqyZ9Zu8BpDhyPMo","username":"Joe Biden","name":"Joe"}
+
+# {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikh1bmVyIiwiaWQiOiI2MmM5MTljOTM1NTI3MDFlODA5NWQ1ODAiLCJpYXQiOjE2NTczNDc4Njd9.zrEZQ7RnlUNVNjUxP-G1xVvM8mkZVDuvDg3mfz6ON7g","username":"Huner","name":"hunt"}
+
